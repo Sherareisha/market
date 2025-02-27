@@ -1,0 +1,35 @@
+/* Default light theme */
+body {
+  background-color: #f9fafb;
+  color: #1f2937;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.settings-container.light {
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme */
+body.dark-theme {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.settings-container.dark {
+  background-color: #374151;
+  color: #f9fafb;
+  border: 1px solid #4b5563;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Transition effects */
+.settings-container {
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
